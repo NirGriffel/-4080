@@ -1,0 +1,57 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<style>
+    table, th, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, tr {
+        padding: 5px;
+        text-align: left;
+    }
+</style>
+
+
+
+
+<table>
+    <tr>
+        <th>PHOTO</th>
+        <th>FOR MORE INFORMATION</th>
+    </tr>
+    <tr>
+
+        <td><img src="https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fresize%3D2000%252C2000%252Cshrink%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-07%252F5cf0c5d0-b1de-11e9-96b7-cedf7a3d0dcd%26client%3Da1acac3e1b3290917d92%26signature%3De99e2cce5e94763a3dc0508b531dea5230c0b044&client=amp-blogside-v2&signature=ee93bf27f9aa5ad45ae060f1f31fc454af0ae511" style="width:200px;height:150px;"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Lion">LION</a></td>
+    </tr>
+    <tr>
+        <td><img src="https://images.unsplash.com/photo-1526319238109-524eecb9b913?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="width:200px;height:150px;"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Zebra">ZEBRA</a></td>
+    </tr>
+    <tr>
+        <td><img src="https://images.unsplash.com/photo-1567201080580-bfcc97dae346?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="width:200px;height:150px;"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Pig">PIG</a></td>
+    </tr>
+    <tr>
+        <td><img src="https://scx1.b-cdn.net/csz/news/800/2019/5dea53abf307b.jpg" style="width:200px;height:150px;"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Snake">SNAKE</a></td>
+    </tr>
+    <tr>
+        <td><img src="https://www.outsideonline.com/sites/default/files/styles/img_600x600/public/2019/07/30/grizzly-spotting-wildlife_s.jpg?itok=zBcVUiua" style="width:200px;height:150px;"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Bear">BEAR</a></td>
+    </tr>
+    <tr>
+        <td><img src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?ixlib=rb-1.2.1&w=1000&q=80" style="width:200px;height:150px;"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Monkey">MONKEY</a></td>
+    </tr>
+
+</table>
+
+
+{% endblock %}
